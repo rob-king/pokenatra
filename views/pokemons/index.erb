@@ -1,0 +1,5 @@
+<div>
+  <% @pokemons.each do |pika| %>
+    <p><a href="/pokemons/<%= pika.id %>"><%= pika.name %></a></p>
+  <% end %>
+</div>
